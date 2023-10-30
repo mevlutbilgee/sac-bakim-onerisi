@@ -1,0 +1,49 @@
+#shampoo-form {
+  /* border: 1px solid red; */
+  width: 300px;
+  margin: auto;
+}
+#title {
+  color: red;
+  text-align: center;
+}
+#shampoo-recommendation {
+  text-align: center;
+  /* width: 300px; */
+}
+#shampoo-image {
+  text-align: center;
+}
+.question {
+  margin-bottom: 20px;
+}
+#hair-type {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+}
+#usage-purpose {
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+}
+#recommend-button {
+  display: none;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  border-style: none;
+  width: 120px;
+  height: 30px;
+}
+body {
+  margin: auto;
+}
+
+.ImageDiv image {
+  width: 200px;
+  height: 300px;
+}
+.ImageDiv {
+  border: 1px solid black;
+}

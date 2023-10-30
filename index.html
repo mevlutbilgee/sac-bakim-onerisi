@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Şampuan Öneri Aracı</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Şampuan Öneri Aracı</h1>
+    <form id="shampoo-form">
+      <div class="question">
+        <label for="hair-type">Saç Tipiniz:</label>
+        <br />
+        <select id="hair-type">
+          <option value=""></option>
+          <option value="normal">Normal</option>
+          <option value="ince-telli">İnce Telli</option>
+          <!-- Diğer saç tipleri -->
+        </select>
+      </div>
+      <div class="question">
+        <label for="usage-purpose">Kullanım Amacınız:</label>
+        <br />
+        <select id="usage-purpose">
+          <option value=""></option>
+          <option value="kepek-azaltma">Kepek Azaltma</option>
+          <option value="hizli-uzama">Hızlı Uzama</option>
+          <option value="yaglanma-engelleme">Yağlanma Engelleme</option>
+          <option value="dokulmeyi-engelleme">Dökülmeyi Engelleme</option>
+          <!-- Diğer kullanım amaçları -->
+        </select>
+      </div>
+      <button type="button" id="recommend-button" onclick="recommendShampoo()">
+        Öneri Al
+      </button>
+    </form>
+    <br /><br />
+    <div id="shampoo-recommendation"></div>
+    <br />
+    <div id="shampoo-image"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
